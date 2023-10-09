@@ -1,0 +1,35 @@
+.img-hover {
+    transition: ease-in-out 0.3s;
+}
+
+.img-hover:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0px 8px 10px 3px #f2f1f1;
+}
+
+.menubar {
+    z-index: 1;
+}
+
+.cog-spinner {
+    z-index: 2;
+    position: fixed;
+    top: 72px;
+    right: 0;
+    box-shadow: 4px -2px 16px 8px #cbcaca;
+}
+
+.bigword {
+    font-size: 5rem;
+    font-weight: 700;
+
+}
+
+.bigword-color {
+    color: #C5CCD6;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
